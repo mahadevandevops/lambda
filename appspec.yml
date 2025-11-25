@@ -3,7 +3,7 @@ Resources:
   - MyLambdaFunction:
       Type: AWS::Lambda::Function
       Properties:
-        Name: product_order
-        Alias: production
-        CurrentVersion: 5
-        TargetVersion: 6
+        Name: "product_order"
+        Alias: "production"
+        CurrentVersion: "5"
+        TargetVersion: "6"
