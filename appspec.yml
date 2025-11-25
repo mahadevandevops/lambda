@@ -1,0 +1,9 @@
+version: 0.0
+Resources:
+  - MyLambdaFunction:
+      Type: AWS::Lambda::Function
+      Properties:
+        Name: product_order
+        Alias: production
+        CurrentVersion: VersionBefore
+        TargetVersion: VersionAfter
