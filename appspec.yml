@@ -5,5 +5,5 @@ Resources:
       Properties:
         Name: "product_order"
         Alias: "production"
-        CurrentVersion: "5"
-        TargetVersion: "6"
+        CurrentVersion: "4"
+        TargetVersion: "5"
